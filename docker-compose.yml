@@ -1,0 +1,7 @@
+services:
+  BOT_NAME:
+    image: outfortheseason/BOT_NAME
+    container_name: BOT_NAME
+    env_file:
+      - .env
+    restart: unless-stopped

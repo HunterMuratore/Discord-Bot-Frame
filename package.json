@@ -1,0 +1,29 @@
+{
+  "name": "discord-bot-frame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r dotenv/config utilities/deploy-commands.js && node -r dotenv/config index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HunterMuratore/Discord-Bot-Frame.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HunterMuratore/Discord-Bot-Frame/issues"
+  },
+  "homepage": "https://github.com/HunterMuratore/Discord-Bot-Frame#readme",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "node": "^21.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "typescript": "^5.3.3"
+  }
+}
